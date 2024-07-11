@@ -1,11 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const authRoutes = require('./routes/authRoutes');
-const bookRoutes = require('./routes/bookRoutes');
-const orderRoutes = require('./routes/orderRoutes');
-const reviewRoutes = require('./routes/reviewRoutes');
-const { authenticateToken } = require('./config/middleware/authMiddleware');
-const connectToDb = require('./config/mongoose');
+const authRoutes = require('./src/routes/authRoutes');
+const bookRoutes = require('./src/routes/bookRoutes');
+const orderRoutes = require('./src/routes/orderRoutes');
+const reviewRoutes = require('./src/routes/reviewRoutes');
+const { authenticateToken } = require('./src/config/middleware/authMiddleware');
+const connectToDb = require('./src/config/mongoose');
 
 const app = express();
 
