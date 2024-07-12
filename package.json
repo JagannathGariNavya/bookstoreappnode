@@ -10,7 +10,7 @@
     "server": "node server.js"
   },
   "engines": {
-    "node": "14.x"
+    "node": ">=16"
   },
   "keywords": [],
   "author": "",
